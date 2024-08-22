@@ -5,5 +5,5 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
   publicPath: "./",
-  base: "./", //设置项目的根目录
+  base: "/vite-vue-01/", //设置项目的根目录
 });
