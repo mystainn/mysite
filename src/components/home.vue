@@ -31,7 +31,7 @@ const activeName = "first";
 
   <div class="end">
     <p>Copyright © 2020-2021 Lin Zixiong. All rights reserved.</p>
-    <a href="">友情链接</a>
+    <a href="">友情链接1</a>
   </div>
 </template>
 
