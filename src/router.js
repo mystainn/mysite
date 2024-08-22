@@ -11,13 +11,14 @@ const routes = [
   },
   //原生flex布局的项目路由
   {
-    path: "/projects/projectOne/FlexSystem.vue", // http://localhost:5173/login
+    path: "/FlexSystem",
+    name: "FlexSystem",
     component: () => import("./projects/projectOne/FlexSystem.vue"),
   },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 
